@@ -36,3 +36,13 @@
     @apply font-mono;
   }
 }
+
+@keyframes equalizerBounce {
+  0% {
+    transform: scaleY(0.25);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+

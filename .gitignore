@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Exclude project docs and plans
+PRD.md
+DESIGN.md
+ImplementationPlan.md
+*implementation_plan.md
+build_output.log
+
