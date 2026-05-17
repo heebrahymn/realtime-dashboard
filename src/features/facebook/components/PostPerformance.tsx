@@ -1,4 +1,4 @@
-import { Video, Image, Link2, FileText, ThumbsUp, MessageCircle, Share2, Sparkles } from 'lucide-react';
+import { Video, Image, Link2, FileText, ThumbsUp, MessageCircle, Share2 } from 'lucide-react';
 import type { FacebookPost } from '../api/mockData';
 
 interface PostPerformanceProps {

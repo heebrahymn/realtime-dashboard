@@ -13,7 +13,7 @@ export const NowPlaying = ({ initialState }: NowPlayingProps) => {
 
   // Auto-progress simulated track every second when isPlaying is active
   useEffect(() => {
-    let interval: NodeJS.Timeout;
+    let interval: any;
     if (isPlaying) {
       interval = setInterval(() => {
         setProgressMs((prev) => {

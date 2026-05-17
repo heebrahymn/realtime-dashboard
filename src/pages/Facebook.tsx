@@ -10,7 +10,7 @@ import {
 import { CampaignMonitor } from '../features/facebook/components/CampaignMonitor';
 import { PostPerformance } from '../features/facebook/components/PostPerformance';
 import { AudienceInsights } from '../features/facebook/components/AudienceInsights';
-import { Search, ChevronDown, Check, Sparkles, Loader2, CheckCircle, Database } from 'lucide-react';
+import { Search, ChevronDown, Check, Loader2, CheckCircle } from 'lucide-react';
 
 export const Facebook = () => {
   const [pageId, setPageId] = useState<string>('techvibe');

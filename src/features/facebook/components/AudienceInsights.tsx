@@ -1,6 +1,7 @@
 import { ResponsiveLine } from '@nivo/line';
 import type { DailyReach, AudienceDemographics } from '../api/mockData';
-import { Award, Users, TrendingUp } from 'lucide-react';
+import { Users, TrendingUp } from 'lucide-react';
+
 
 interface AudienceInsightsProps {
   dailyReach: DailyReach[];
@@ -118,8 +119,8 @@ export const AudienceInsights = ({ dailyReach, demographics }: AudienceInsightsP
                 <span className="text-text-secondary block font-display font-medium text-xs mb-1">
                   {point.data.x} Telemetry
                 </span>
-                <span className="font-bold text-[13px]" style={{ color: point.serieColor }}>
-                  {point.serieId}: {point.data.yFormatted} views
+                <span className="font-bold text-[13px]" style={{ color: point.seriesColor }}>
+                  {point.seriesId}: {point.data.yFormatted} views
                 </span>
               </div>
             )}

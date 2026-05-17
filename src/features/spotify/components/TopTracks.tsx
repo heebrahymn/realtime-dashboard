@@ -57,7 +57,7 @@ export const TopTracks = ({ tracks }: TopTracksProps) => {
                 {track.title}
               </h4>
               <p className="text-xs text-text-secondary truncate mt-0.5">
-                {track.artist} • <span className="font-medium text-[11px]">{track.album}</span>
+                {track.artist} • <span className="font-medium text-[11px]">{track.album} • {formatDuration(track.durationMs)}</span>
               </p>
             </div>
 

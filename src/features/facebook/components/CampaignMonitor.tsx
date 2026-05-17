@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Play, Pause, DollarSign, Target, Plus, AlertCircle, Sparkles } from 'lucide-react';
+import { Play, Pause, Target, AlertCircle } from 'lucide-react';
 import type { AdCampaign } from '../api/mockData';
 
 interface CampaignMonitorProps {
@@ -81,7 +81,6 @@ export const CampaignMonitor = ({ initialCampaigns }: CampaignMonitorProps) => {
         <div className="space-y-4">
           {campaigns.map((camp) => {
             const isEditing = editingId === camp.id;
-            const spentPercent = Math.min((camp.spent / (camp.budget * 30)) * 100, 100);
 
             return (
               <div

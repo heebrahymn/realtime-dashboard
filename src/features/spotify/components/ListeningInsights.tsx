@@ -1,7 +1,7 @@
 import { ResponsiveLine } from '@nivo/line';
 import type { ListeningDay, AudioProfile } from '../api/mockData';
 import { mockGenreStats } from '../api/mockData';
-import { Play, TrendingUp } from 'lucide-react';
+import { TrendingUp } from 'lucide-react';
 
 interface ListeningInsightsProps {
   listeningStats: ListeningDay[];

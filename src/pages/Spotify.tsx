@@ -9,7 +9,7 @@ import {
 import { NowPlaying } from '../features/spotify/components/NowPlaying';
 import { ListeningInsights } from '../features/spotify/components/ListeningInsights';
 import { TopTracks } from '../features/spotify/components/TopTracks';
-import { Music, Award, Radio, Loader2, Sparkles, Search, ChevronDown, Check, Disc } from 'lucide-react';
+import { Award, Loader2, Search, ChevronDown, Check } from 'lucide-react';
 
 export const Spotify = () => {
   const [userId, setUserId] = useState<string>('alexmartinez');

@@ -123,7 +123,7 @@ export interface UserSearchResult {
 
 export const searchSpotifyProfiles = async (query: string): Promise<UserSearchResult[]> => {
   await new Promise((resolve) => setTimeout(resolve, 50));
-  const items = Object.values(spotifyUsersDb).map((u) => ({
+  const items: UserSearchResult[] = Object.values(spotifyUsersDb).map((u) => ({
     id: u.profile.id,
     name: u.profile.name,
     tier: u.profile.tier,
